@@ -1,2 +1,7 @@
-# GameJamDmaSping2026
-Made the weekend of May 23rd
+# Origin
+
+Made for DMA Spring Game Jam 2026. Theme "Falling Apart".
+
+# Repo
+
+https://github.com/Feddas/GameJamDmaSping2026
