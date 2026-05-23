@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_DarkMoon/MainGameScene.unity
     guid: 7379f93daba96ca4a91c1634b4c67614
+  - enabled: 1
+    path: Assets/_DarkMoon/PawwStuff/EndingScene.unity
+    guid: d004c461e9a33d44abf5d9e22f73eddd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 05b4aeda8533b704f9be24b556a43d98,
       type: 3}
