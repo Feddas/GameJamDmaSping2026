@@ -95,7 +95,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
 
     void checkInsanity(float currentHealth)
     {
-        if (currentHealth < 30)
+        if (currentHealth < 40)
         {
             Debug.Log("you are low sanity!!!" + currentHealth);
             // very low sanity
@@ -104,7 +104,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
             animator.SetBool("Wary", true);
 
         }
-        else if (currentHealth < 60)
+        else if (currentHealth < 65)
         {
             // low sanity
             animator.SetBool("Insane", true);
@@ -112,7 +112,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
             animator.SetBool("Wary", true);
         }
 
-        else if (CurrentHealth < 80)
+        else if (CurrentHealth < 90)
         {
             // wary
             animator.SetBool("Insane", false);

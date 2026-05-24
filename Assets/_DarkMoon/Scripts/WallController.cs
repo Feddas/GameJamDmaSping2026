@@ -12,6 +12,8 @@ public class WallController : MonoBehaviour
     [Tooltip("Delay after death where the GameObject is destroyed (to allow for animation)")]
     public float DeathDuration = 0f;
 
+    public float wallDamageAmount = 10f;
+
     [Header("VFX")]
     [Tooltip("The VFX prefab spawned when the enemy dies")]
     public GameObject DeathVfx;
@@ -61,7 +63,7 @@ public class WallController : MonoBehaviour
         if (playerDamageable != null)
         {
             playerDamageable.InflictDamage(
-                25f,
+                wallDamageAmount,
                 false,
                 gameObject
             );
