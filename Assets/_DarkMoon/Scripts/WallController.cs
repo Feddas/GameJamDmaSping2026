@@ -5,6 +5,8 @@ using UnityEngine;
 /// <summary>
 /// allows a wall to die. copied some from C:\Users\fedda\Documents\_Shawn\ProjectsUnity\GameJam\GameJamDmaSping2026\Assets\FPS\Scripts\AI\EnemyController.cs
 /// </summary>
+///
+[RequireComponent(typeof(WallCombinations))]
 public class WallController : MonoBehaviour
 {
     public GameObject[] WallMeshes;
@@ -25,6 +27,7 @@ public class WallController : MonoBehaviour
     Health m_Health;
     bool m_WasDamagedThisFrame;
 
+
     Damageable playerDamageable;
 
     void Start()
@@ -38,16 +41,29 @@ public class WallController : MonoBehaviour
 
         playerDamageable =
         FindObjectOfType<Damageable>();
+        pickWallMesh();
     }
 
     void Update() { }
+
+
+    private void pickWallMesh()
+    {
+        if (WallMeshes == null || WallMeshes.Length <= 1)
+        {
+            return;
+        }
+
+        var wallCombinator = this.GetComponent<WallCombinations>();
+        wallCombinator.CurrentVisual = (WallCombinationEnum)UnityEngine.Random.Range(0, 3);
+    }
 
     void OnDamaged(float damage, GameObject damageSource)
     {
         // test if the damage source is the player
         if (damageSource && !damageSource.GetComponent<EnemyController>())
         {
-            // pursue the player
+            // pursue the wall
             DetectionModule.OnDamaged(damageSource);
 
             // play the damage tick sound
