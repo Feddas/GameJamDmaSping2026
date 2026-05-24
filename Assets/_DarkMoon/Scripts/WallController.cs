@@ -1,10 +1,10 @@
-using Unity.FPS.AI;
 using Unity.FPS.Game;
 using UnityEngine;
 
 /// <summary>
 /// allows a wall to die. copied some from C:\Users\fedda\Documents\_Shawn\ProjectsUnity\GameJam\GameJamDmaSping2026\Assets\FPS\Scripts\AI\EnemyController.cs
 /// </summary>
+[RequireComponent(typeof(Health))]
 public class WallController : MonoBehaviour
 {
     public GameObject[] WallMeshes;
@@ -20,46 +20,60 @@ public class WallController : MonoBehaviour
 
     [Tooltip("The point at which the death VFX is spawned")]
     public Transform DeathVfxSpawnPoint;
-    public DetectionModule DetectionModule { get; private set; }
 
     Health m_Health;
-    bool m_WasDamagedThisFrame;
-
     Damageable playerDamageable;
 
-    void Start()
+    void Awake()
     {
         m_Health = GetComponent<Health>();
-        DebugUtility.HandleErrorIfNullGetComponent<Health, EnemyController>(m_Health, this, gameObject);
+        DebugUtility.HandleErrorIfNullGetComponent<Health, WallController>(m_Health, this, gameObject);
 
-        // Subscribe to damage & death actions
-        m_Health.OnDamaged += OnDamaged;
-        m_Health.OnDie += OnDie;
-
-        playerDamageable =
-        FindObjectOfType<Damageable>();
+        playerDamageable = FindAnyObjectByType<Damageable>();
     }
 
-    void Update() { }
+    void OnEnable()
+    {
+        if (!m_Health)
+        {
+            m_Health = GetComponent<Health>();
+        }
+
+        if (!m_Health)
+        {
+            return;
+        }
+
+        // Subscribe to damage & death actions
+        m_Health.OnDamaged -= OnDamaged;
+        m_Health.OnDamaged += OnDamaged;
+        m_Health.OnDie -= OnDie;
+        m_Health.OnDie += OnDie;
+    }
+
+    void OnDisable()
+    {
+        if (!m_Health)
+        {
+            return;
+        }
+
+        m_Health.OnDamaged -= OnDamaged;
+        m_Health.OnDie -= OnDie;
+    }
 
     void OnDamaged(float damage, GameObject damageSource)
     {
-        // test if the damage source is the player
-        if (damageSource && !damageSource.GetComponent<EnemyController>())
-        {
-            // pursue the player
-            DetectionModule.OnDamaged(damageSource);
-
-            // play the damage tick sound
-            //if (DamageTick && !m_WasDamagedThisFrame)
-            //    AudioUtility.CreateSFX(DamageTick, transform.position, AudioUtility.AudioGroups.DamageTick, 0f);
-
-            m_WasDamagedThisFrame = true;
-        }
+        // Intentionally left blank: walls don't require AI detection behavior.
     }
 
     void OnDie()
     {
+        if (!playerDamageable)
+        {
+            playerDamageable = FindAnyObjectByType<Damageable>();
+        }
+
         if (playerDamageable != null)
         {
             playerDamageable.InflictDamage(
@@ -70,8 +84,20 @@ public class WallController : MonoBehaviour
         }
     
         // spawn a particle system when dying
-        var vfx = Instantiate(DeathVfx, DeathVfxSpawnPoint.position, Quaternion.identity);
-        Destroy(vfx, 5f);
+        if (!DeathVfx)
+        {
+            Debug.LogWarning($"WallController on '{name}' has no DeathVfx assigned.", this);
+        }
+        else
+        {
+            if (!DeathVfxSpawnPoint)
+            {
+                Debug.LogWarning($"WallController on '{name}' has no DeathVfxSpawnPoint. Using wall position.", this);
+            }
+            var spawnPoint = DeathVfxSpawnPoint ? DeathVfxSpawnPoint.position : transform.position;
+            var vfx = Instantiate(DeathVfx, spawnPoint, Quaternion.identity);
+            Destroy(vfx, 5f);
+        }
 
         // this will call the OnDestroy function
         Destroy(gameObject, DeathDuration);
