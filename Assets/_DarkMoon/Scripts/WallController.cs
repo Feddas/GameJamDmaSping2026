@@ -33,14 +33,20 @@ public class WallController : MonoBehaviour
     void Start()
     {
         m_Health = GetComponent<Health>();
-        DebugUtility.HandleErrorIfNullGetComponent<Health, EnemyController>(m_Health, this, gameObject);
+        DebugUtility.HandleErrorIfNullGetComponent<Health, WallController>(m_Health, this, gameObject);
+
+        DetectionModule = GetComponent<DetectionModule>();
+        DebugUtility.HandleErrorIfNullGetComponent<DetectionModule, WallController>(DetectionModule, this, gameObject);
 
         // Subscribe to damage & death actions
         m_Health.OnDamaged += OnDamaged;
         m_Health.OnDie += OnDie;
 
-        playerDamageable =
-        FindObjectOfType<Damageable>();
+        ActorsManager actorsManager = FindAnyObjectByType<ActorsManager>();
+        if (actorsManager != null && actorsManager.Player != null)
+        {
+            playerDamageable = actorsManager.Player.GetComponentInChildren<Damageable>();
+        }
         pickWallMesh();
     }
 
@@ -64,7 +70,10 @@ public class WallController : MonoBehaviour
         if (damageSource && !damageSource.GetComponent<EnemyController>())
         {
             // pursue the wall
-            DetectionModule.OnDamaged(damageSource);
+            if (DetectionModule != null)
+            {
+                DetectionModule.OnDamaged(damageSource);
+            }
 
             // play the damage tick sound
             //if (DamageTick && !m_WasDamagedThisFrame)
