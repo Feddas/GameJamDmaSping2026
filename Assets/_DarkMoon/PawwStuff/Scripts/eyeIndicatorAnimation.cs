@@ -112,7 +112,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
             animator.SetBool("Wary", true);
         }
 
-        else if (CurrentHealth < 90)
+        else if (currentHealth < 90)
         {
             // wary
             animator.SetBool("Insane", false);
