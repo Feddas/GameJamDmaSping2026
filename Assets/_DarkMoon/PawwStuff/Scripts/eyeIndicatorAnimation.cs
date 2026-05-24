@@ -13,10 +13,13 @@ public class eyeIndicatorAnimation : MonoBehaviour
 
     public float CurrentHealth { get; set; }
     private Animator animator;
+  
     public UnityAction onIsanityDamaged;
     public UnityAction onIsanityHeal;
 
     public Health m_Health;
+
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,7 +32,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
         m_Health.OnDamaged += OnDamaged;
         m_Health.OnHealed += Heal;
 
-
+     
 
         //CurrentHealth = MaxHealth;
         animator.SetBool("Insane", false);
@@ -39,6 +42,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
         
 
     }
+
 
 
     public void Heal(float healAmount)
@@ -60,6 +64,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
         onIsanityDamaged?.Invoke();
 
         animator.SetTrigger("Hit");
+       
 
 
     }
