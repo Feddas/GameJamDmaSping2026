@@ -1,25 +1,16 @@
-using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem; // 1. Make sure to add this namespace
 using UnityEngine.SceneManagement;
 
 public class introScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void Start()
+    void Update()
     {
-        Debug.Log("Object initialized. Starting automatic 5-second countdown...");
-        StartCoroutine(WaitAndLoadScene());
-    }
-
-    private IEnumerator WaitAndLoadScene()
-    {
-        for (int i = 5; i > 0; i--)
+        // 2. Check if the keyboard exists and if any key was pressed this frame
+        if (Keyboard.current != null && Keyboard.current.anyKey.wasPressedThisFrame)
         {
-            Debug.Log($"Changing scene in {i} seconds...");
-            yield return new WaitForSeconds(1f);
+            // Your existing logic to load the next scene or skip
+            SceneManager.LoadScene("MainGameScene");
         }
-
-        Debug.Log("Timer finished. Loading next scene now.");
-        SceneManager.LoadScene("MainGameScene");
     }
 }
