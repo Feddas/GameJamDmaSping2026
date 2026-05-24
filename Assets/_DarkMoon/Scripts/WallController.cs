@@ -22,7 +22,6 @@ public class WallController : MonoBehaviour
 
     [Tooltip("The point at which the death VFX is spawned")]
     public Transform DeathVfxSpawnPoint;
-    public DetectionModule DetectionModule { get; private set; }
 
     Health m_Health;
     bool m_WasDamagedThisFrame;
@@ -36,12 +35,10 @@ public class WallController : MonoBehaviour
         DebugUtility.HandleErrorIfNullGetComponent<Health, EnemyController>(m_Health, this, gameObject);
 
         // Subscribe to damage & death actions
-        m_Health.OnDamaged += OnDamaged;
         m_Health.OnDie += OnDie;
 
         playerDamageable =
         FindObjectOfType<Damageable>();
-        DetectionModule = GetComponent<DetectionModule>();
         pickWallMesh();
     }
 
@@ -57,22 +54,6 @@ public class WallController : MonoBehaviour
 
         var wallCombinator = this.GetComponent<WallCombinations>();
         wallCombinator.CurrentVisual = (WallCombinationEnum)UnityEngine.Random.Range(0, 3);
-    }
-
-    void OnDamaged(float damage, GameObject damageSource)
-    {
-        // test if the damage source is the player
-        if (damageSource && !damageSource.GetComponent<EnemyController>())
-        {
-            // pursue the wall
-            DetectionModule.OnDamaged(damageSource);
-
-            // play the damage tick sound
-            //if (DamageTick && !m_WasDamagedThisFrame)
-            //    AudioUtility.CreateSFX(DamageTick, transform.position, AudioUtility.AudioGroups.DamageTick, 0f);
-
-            m_WasDamagedThisFrame = true;
-        }
     }
 
     void OnDie()
