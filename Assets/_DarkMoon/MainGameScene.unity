@@ -603,6 +603,575 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5406225627547233, guid: 93551d87839f5fd4c9da558ea0c01110, type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 51464126876147211, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 74985618476939832, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 135816050770372418, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 145355252610199643, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 176731549008936567, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 193440409649292424, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 209304484543944678, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 255008338103937073, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 342661918362982853, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 346910700893121781, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 496466011972841481, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 510564574895150041, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 513590071922923566, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 539166884891411797, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 539609612990038192, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 545476432596096454, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 594402779867575094, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 611474264632723328, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 625276073672943874, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 655431752302872032, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 679059547970948419, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 885597107677917071, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 920263053352866849, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 943014085188888437, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 978366653079268241, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 985709186949435780, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 999080383978878332, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1073780259295997970, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1086090735060807054, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1145150663943325959, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1276316738746767731, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1293696923226497276, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1302389043556006350, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1330769341687766186, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1345687292762372511, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1358231405885771021, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1440040123783937253, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1470748415286122606, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1473978393383981969, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1491415367524929383, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1546123627856657346, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1560351169542370665, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1599785389980975376, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1601657973049140339, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1626778932662266000, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1642753299767486900, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1684765704414272292, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1726544092675919732, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1768428326703995879, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1828793852306423824, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1857893991585745080, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 1858068879862593835, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2077850763069644883, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2081286110233437012, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2117550130450628233, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2203853183962944697, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2220496798326869760, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2260291189131071316, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2304560323826531222, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2381690710654773995, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2463699718751623817, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2520344955944907122, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2576449135642568244, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2580046500471924767, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2621921653014821855, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2635880978309668408, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2776631191776732432, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2783668765259556955, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2790060480308958287, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2795472841998849425, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2820905079423103823, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 2885396724712419157, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3044036258904721965, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3051317449824357182, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3106287411529526080, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3153248620810238794, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3162070403278669993, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3167781826698324506, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3211312150115566965, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3223836654915757235, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3225063740831063332, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3236369356922399382, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3279358854868228945, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3283704998309021431, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3286235084263461002, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3335011042093873013, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3358817101480620628, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3391170856617944974, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3394827279063959086, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3480784339274877397, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3519478795249242287, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3615872340893567944, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3623982174153770141, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3639474035312165522, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3679706957122485470, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3681255649825682324, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3751656015725161234, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3770139160452093018, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3832822167044789597, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3833843520757012930, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3892035039329476282, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3931671194661726684, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3952595312996819138, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3958038870371628231, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3963990732282072441, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3968095809064361508, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 3976371026920829652, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4005018769959127083, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4036241062369396622, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4242378262530628868, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4288580997705772479, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4310327076882212850, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4361126746063495390, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
     - target: {fileID: 4393155918044827598, guid: 93551d87839f5fd4c9da558ea0c01110,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -653,11 +1222,561 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4404973702231087626, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4494218805669149303, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4522074271582225151, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4529761370699449074, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4542619940010625696, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4548476214500821731, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4573333338763680549, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4581154081704827360, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4653980579512493045, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4689569255905941284, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4801751349300367774, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 4854401480989328652, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5031242518972133644, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5057895345935709204, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5073911603288654771, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5122079294939028845, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5145298539365636006, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5188468788191816869, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5225956737197660751, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5285127475073772077, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5319299574403780121, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5350038072319811854, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5422298630326405394, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5466170162700077879, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5529043599388477403, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5615659609731526965, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5706174635994360716, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5731119438575337730, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5798243189161401698, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5829057714893284829, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5994916940224403700, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 5995745579773404998, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6074691665646760488, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6204054834263771020, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6295720970441262543, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6393529354946385489, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6393547069639913302, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6440518745864543678, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6512537217236204212, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6589105416202743958, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6635628114854748929, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6703280824396119481, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
     - target: {fileID: 6760857140072213604, guid: 93551d87839f5fd4c9da558ea0c01110,
         type: 3}
       propertyPath: m_Name
       value: Ship
       objectReference: {fileID: 0}
+    - target: {fileID: 6783019401784756167, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6807143309412513595, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6812048752566673360, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6847483478322516865, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6867479780367394622, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6880456000736611793, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6953152818263092302, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 6994364316166056210, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7067913170807886178, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7068609525061709107, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7158917451178690432, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7162120169096672571, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7278018951920469044, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7288654991340174835, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7351156592170735833, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7357737603420904209, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7379486516453157031, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7409553952883393000, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7443075766964456763, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7503565383536472140, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7529129371478061005, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7537031458369077695, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7541932005594253212, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7575208946387091739, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7578601105207831091, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7616782923522570023, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7653083983984075918, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7736562072683381481, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7764726619784129870, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7768739897247025300, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7774647045544868199, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7843212113583923207, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7927816593989358931, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7959014846382707404, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 7979511032028290359, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8006778295987038712, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8027538277113277716, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8057861039153747313, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8115946148292738147, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8165757229249523842, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8171810027370693327, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8206839037505046474, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8251431453517237878, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8350352629502900303, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8358966435839521417, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8412538073791034554, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8474710348148559810, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8506321225970601190, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8594362104509881451, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8678431460140523244, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8775032074079640738, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8831836577478649573, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8868148993049451017, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8871117868954974231, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8892657341630496199, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8949933098342324309, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8958699961196331319, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8966936577572101719, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 8984858574646930314, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9005865980791882994, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9017353625478614080, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9026627560746480860, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9027460938512152064, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9029784089669189624, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9056555070025940321, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9104044977729011371, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9162356157091433545, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
+    - target: {fileID: 9221699001606497468, guid: 93551d87839f5fd4c9da558ea0c01110,
+        type: 3}
+      propertyPath: playerDamageable
+      value: 
+      objectReference: {fileID: 1069697917}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2163,6 +3282,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1069697915}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1069697917 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4205022973215787166, guid: 761cdc9e4e883334cbdcea062d0befa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1069697915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b0ce1bb69c96b49a7ac1098a7f5796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1078746072
 GameObject:
   m_ObjectHideFlags: 0

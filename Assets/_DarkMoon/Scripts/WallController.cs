@@ -27,7 +27,7 @@ public class WallController : MonoBehaviour
     bool m_WasDamagedThisFrame;
 
 
-    Damageable playerDamageable;
+    public Damageable playerDamageable;
 
     void Start()
     {
@@ -37,8 +37,8 @@ public class WallController : MonoBehaviour
         // Subscribe to damage & death actions
         m_Health.OnDie += OnDie;
 
-        playerDamageable =
-        FindObjectOfType<Damageable>();
+        
+        Debug.Log("player damageable: " + playerDamageable.name);
         pickWallMesh();
     }
 
@@ -58,8 +58,12 @@ public class WallController : MonoBehaviour
 
     void OnDie()
     {
+
+        Debug.Log("wall die");
         if (playerDamageable != null)
         {
+
+            Debug.Log("wall inflict damage to player");
             playerDamageable.InflictDamage(
                 wallDamageAmount,
                 false,
