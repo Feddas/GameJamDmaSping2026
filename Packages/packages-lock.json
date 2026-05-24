@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.feddas.swapactive": {
+      "version": "https://github.com/Feddas/upm.git?path=/Assets/SwapActive",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "6ab826a90d19b48dc3075f5dae759d9b8530cd03"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
