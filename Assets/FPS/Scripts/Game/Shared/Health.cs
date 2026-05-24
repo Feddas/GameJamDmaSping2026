@@ -83,5 +83,7 @@ namespace Unity.FPS.Game
                 OnDie?.Invoke();
             }
         }
+
+        
     }
 }
