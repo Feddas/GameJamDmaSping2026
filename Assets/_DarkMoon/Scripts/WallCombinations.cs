@@ -1,12 +1,12 @@
-//using Feddas;
+using Feddas;
 
-//public enum WallCombinationEnum
-//{
-//    Window,
-//    Panel,
-//    Both,
-//}
+public enum WallCombinationEnum
+{
+    Window,
+    Panel,
+    Both,
+}
 
-//public class WallCombinations : VisualStateSwap<WallCombinationEnum>
-//{
-//}
+public class WallCombinations : VisualStateSwap<WallCombinationEnum>
+{
+}
