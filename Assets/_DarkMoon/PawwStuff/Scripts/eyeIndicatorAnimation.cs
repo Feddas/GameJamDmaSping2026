@@ -12,6 +12,8 @@ public class eyeIndicatorAnimation : MonoBehaviour
 
 
     public float CurrentHealth { get; set; }
+    public bool GameIsEnding { get; private set; }
+
     private Animator animator;
   
     public UnityAction onIsanityDamaged;
@@ -20,7 +22,10 @@ public class eyeIndicatorAnimation : MonoBehaviour
     public Health m_Health;
 
 
-
+    void awake()
+    {
+        EventManager.AddListener<AllObjectivesCompletedEvent>(OnAllObjectivesCompleted);
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,8 +36,10 @@ public class eyeIndicatorAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
         m_Health.OnDamaged += OnDamaged;
         m_Health.OnHealed += Heal;
+        m_Health.OnDie += OnDie;
+        //ObjectiveManager.OnAllObjectivesCompleted += OnGameWin;
 
-     
+
 
         //CurrentHealth = MaxHealth;
         animator.SetBool("Insane", false);
@@ -43,7 +50,23 @@ public class eyeIndicatorAnimation : MonoBehaviour
 
     }
 
+    void OnAllObjectivesCompleted(AllObjectivesCompletedEvent evt) => OnGameWin();
 
+
+    void OnGameWin()
+    {
+
+        Debug.Log("GAME won animation activated");
+        animator.SetBool("GameWin", true);
+        animator.SetBool("GameEnd", true);
+    }
+
+    void OnDie()
+    {
+        Debug.Log("game ended");
+
+        animator.SetBool("GameEnd", true);
+    }
 
     public void Heal(float healAmount)
     {
