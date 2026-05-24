@@ -14,6 +14,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
     public float CurrentHealth { get; set; }
     private Animator animator;
     public UnityAction onIsanityDamaged;
+    public UnityAction onIsanityHeal;
 
     public Health m_Health;
 
@@ -26,6 +27,7 @@ public class eyeIndicatorAnimation : MonoBehaviour
         DebugUtility.HandleErrorIfNullGetComponent<Health, eyeIndicatorAnimation>(m_Health, this, gameObject);
         animator = GetComponent<Animator>();
         m_Health.OnDamaged += OnDamaged;
+        m_Health.OnHealed += Heal;
 
 
 
@@ -39,6 +41,14 @@ public class eyeIndicatorAnimation : MonoBehaviour
     }
 
 
+    public void Heal(float healAmount)
+    {
+
+        checkInsanity(m_Health.CurrentHealth);
+        
+        
+    }
+
 
     void OnDamaged(float damage, GameObject damageSource)
     {
@@ -48,8 +58,8 @@ public class eyeIndicatorAnimation : MonoBehaviour
         Debug.Log(m_Health.CurrentHealth);  
 
         onIsanityDamaged?.Invoke();
-        
 
+        animator.SetTrigger("Hit");
 
 
     }
