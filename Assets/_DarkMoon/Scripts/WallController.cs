@@ -5,7 +5,6 @@ using UnityEngine;
 /// <summary>
 /// allows a wall to die. copied some from C:\Users\fedda\Documents\_Shawn\ProjectsUnity\GameJam\GameJamDmaSping2026\Assets\FPS\Scripts\AI\EnemyController.cs
 /// </summary>
-[RequireComponent(typeof(WallCombinations))]
 public class WallController : MonoBehaviour
 {
     public GameObject[] WallMeshes;
@@ -32,8 +31,6 @@ public class WallController : MonoBehaviour
         // Subscribe to damage & death actions
         m_Health.OnDamaged += OnDamaged;
         m_Health.OnDie += OnDie;
-
-        pickWallMesh();
     }
 
     void Update() { }
@@ -62,16 +59,5 @@ public class WallController : MonoBehaviour
 
         // this will call the OnDestroy function
         Destroy(gameObject, DeathDuration);
-    }
-
-    private void pickWallMesh()
-    {
-        if (WallMeshes == null || WallMeshes.Length <= 1)
-        {
-            return;
-        }
-
-        var wallCombinator = this.GetComponent<WallCombinations>();
-        wallCombinator.CurrentVisual = (WallCombinationEnum)UnityEngine.Random.Range(0, 3);
     }
 }
