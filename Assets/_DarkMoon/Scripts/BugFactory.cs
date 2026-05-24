@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BugFactory : MonoBehaviour
 {
+    public bool spawnAtZero = false;
     public Transform[] Floors;
     public float SecondsNextBugSpawn = 60;
     public float BugsLeft = 10;
@@ -23,8 +24,8 @@ public class BugFactory : MonoBehaviour
             yield return new WaitForSeconds(SecondsNextBugSpawn);
 
             // make bug
-            BoxCollider roomToSpawn = Floors[roomIndex].GetComponent<BoxCollider>();
-            var newBug = Instantiate(BugPrefab, GetRandomPoint(roomToSpawn), Quaternion.identity);
+            var spawnLocation = determineSpawnLocation();
+            var newBug = Instantiate(BugPrefab, spawnLocation, Quaternion.identity);
             newBug.transform.parent = this.transform;
 
             // next iteration
@@ -38,7 +39,18 @@ public class BugFactory : MonoBehaviour
 
     }
 
-    public Vector3 GetRandomPoint(BoxCollider boxCollider, int atFloor = 1)
+    public Vector3 determineSpawnLocation()
+    {
+        if (Floors == null || Floors.Length == 0 || spawnAtZero)
+        {
+            return Vector3.zero;
+        }
+
+        BoxCollider roomToSpawn = Floors[roomIndex].GetComponent<BoxCollider>();
+        return GetRandomLocation(roomToSpawn);
+    }
+
+    public Vector3 GetRandomLocation(BoxCollider boxCollider, int atFloor = 1)
     {
         Bounds bounds = boxCollider.bounds;
         return new Vector3(
