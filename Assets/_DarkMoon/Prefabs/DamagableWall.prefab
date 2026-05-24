@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 7299956330547907928}
   - component: {fileID: 4217433124757923077}
   - component: {fileID: 5573725837892913788}
-  - component: {fileID: 9069724281138167351}
   m_Layer: 0
   m_Name: DamagableWall
   m_TagString: Untagged
@@ -150,23 +149,6 @@ MonoBehaviour:
     activeGameObjects:
     - {fileID: 6237060319375868857}
     - {fileID: 4430366414015299719}
---- !u!114 &9069724281138167351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955350540905509457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927ff0b4cb9a5dd4fb83c45166cffc50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: fps.AI::Unity.FPS.AI.DetectionModule
-  DetectionSourcePoint: {fileID: 0}
-  DetectionRange: 20
-  AttackRange: 10
-  KnownTargetTimeout: 4
-  Animator: {fileID: 0}
 --- !u!1 &1105402536438444905
 GameObject:
   m_ObjectHideFlags: 0
