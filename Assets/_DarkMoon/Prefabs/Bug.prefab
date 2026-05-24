@@ -102,7 +102,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ShootSfx
       value: 
-      objectReference: {fileID: 8300000, guid: d77417baf81c34646a7e909aeadb7562, type: 3}
+      objectReference: {fileID: 8300000, guid: f83b34a8ffe634443ac896259b5a85de, type: 3}
     - target: {fileID: 4752156053906186385, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: OnDetectSfx
