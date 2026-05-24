@@ -8,6 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 320366457763985523, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 320366457763985525, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 320366457763985527, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1614318205656627459, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_Resource
@@ -92,7 +107,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnDetectSfx
       value: 
-      objectReference: {fileID: 8300000, guid: d64553ddfa0c2854181fe37ccdf33a65, type: 3}
+      objectReference: {fileID: 8300000, guid: a8f55f18289caaf47976cade18f3c3bb, type: 3}
     - target: {fileID: 9087143436424816424, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: DeathSound
@@ -134,7 +149,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 58615409bc564c74c91fd8b5a6b46aa9,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.02
+      value: 0.011989574
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 58615409bc564c74c91fd8b5a6b46aa9,
         type: 3}
