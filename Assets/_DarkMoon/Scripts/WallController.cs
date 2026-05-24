@@ -41,6 +41,7 @@ public class WallController : MonoBehaviour
 
         playerDamageable =
         FindObjectOfType<Damageable>();
+        DetectionModule = GetComponent<DetectionModule>();
         pickWallMesh();
     }
 
