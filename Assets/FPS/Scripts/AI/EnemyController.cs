@@ -63,6 +63,9 @@ namespace Unity.FPS.AI
         [Header("Sounds")] [Tooltip("Sound played when recieving damages")]
         public AudioClip DamageTick;
 
+        [Tooltip("Sound played when the enemy dies")]
+        public AudioClip DeathSound;
+
         [Header("VFX")] [Tooltip("The VFX prefab spawned when the enemy dies")]
         public GameObject DeathVfx;
 
@@ -359,6 +362,18 @@ namespace Unity.FPS.AI
 
         void OnDie()
         {
+
+            // play death sound
+            if (DeathSound)
+            {
+                AudioUtility.CreateSFX(
+                    DeathSound,
+                    transform.position,
+                    AudioUtility.AudioGroups.DamageTick,
+                    0f
+                );
+            }
+
             // spawn a particle system when dying
             var vfx = Instantiate(DeathVfx, DeathVfxSpawnPoint.position, Quaternion.identity);
             Destroy(vfx, 5f);

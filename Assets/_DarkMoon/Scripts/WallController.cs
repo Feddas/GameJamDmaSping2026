@@ -23,6 +23,8 @@ public class WallController : MonoBehaviour
     Health m_Health;
     bool m_WasDamagedThisFrame;
 
+    Damageable playerDamageable;
+
     void Start()
     {
         m_Health = GetComponent<Health>();
@@ -31,6 +33,9 @@ public class WallController : MonoBehaviour
         // Subscribe to damage & death actions
         m_Health.OnDamaged += OnDamaged;
         m_Health.OnDie += OnDie;
+
+        playerDamageable =
+        FindObjectOfType<Damageable>();
     }
 
     void Update() { }
@@ -53,6 +58,15 @@ public class WallController : MonoBehaviour
 
     void OnDie()
     {
+        if (playerDamageable != null)
+        {
+            playerDamageable.InflictDamage(
+                25f,
+                false,
+                gameObject
+            );
+        }
+    
         // spawn a particle system when dying
         var vfx = Instantiate(DeathVfx, DeathVfxSpawnPoint.position, Quaternion.identity);
         Destroy(vfx, 5f);
