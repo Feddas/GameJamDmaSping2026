@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d73053268a2ae48bb9e7d4bf6419fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: MainScene
+  SceneName: MainGameScene
 --- !u!1 &134625305
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d73053268a2ae48bb9e7d4bf6419fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: IntroMenu
+  SceneName: StartScene
 --- !u!114 &986130591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1058,14 +1058,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 91c91768bbde1d24da879a8907f0edd5, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1246,7 +1246,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You WIN
+  m_text: 'You Survived!
+
+    You return to Earth and told no soul. You can only
+    hope no other humans attempt this mission again...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
   m_sharedMaterial: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
@@ -1275,8 +1278,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
